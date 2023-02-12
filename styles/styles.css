@@ -5,3 +5,13 @@ body {
     margin: 1rem;
     padding: 0;
 }
+
+.example{
+    height: 50%;
+    width: 50%;
+}
+
+
+.step p{
+    padding: 2vh 20vw 2vh 0;
+}
