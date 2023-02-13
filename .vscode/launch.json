@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "chrome",
+            "name": "https://www.google.com",
+            "request": "launch",
+            "url": "https://www.google.com"
+        }
+    ]
+}

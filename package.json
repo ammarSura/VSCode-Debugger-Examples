@@ -1,0 +1,27 @@
+{
+  "name": "vscode-debugger-examples",
+  "version": "1.0.0",
+  "description": "Repo for a website to demonstrate the way different bugs can be solved using the built in VSCode debugger for Node.js",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ammarSura/VSCode-Debugger-Examples.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ammarSura/VSCode-Debugger-Examples/issues"
+  },
+  "homepage": "https://github.com/ammarSura/VSCode-Debugger-Examples#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "node": "^19.6.0",
+    "nodemon": "^2.0.20"
+  }
+}
