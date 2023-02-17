@@ -11,10 +11,10 @@ const path = __dirname;
 app.get("/home", async(req, res) => {
     var i = 0;
     var x = "Testing"
-    // var y = createHash(1);
-    for(var i = 0; i < 10000; i++){
-        console.log(i);
-    }
+    var y = createHash('shake256')
+    // for(var i = 0; i < 10000; i++){
+    //     console.log(i);
+    // }
     res.sendFile(path + "/views/home.html")
 });
 
