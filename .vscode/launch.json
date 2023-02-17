@@ -1,10 +1,31 @@
-{
-    "configurations": [
-        {
-            "type": "chrome",
-            "name": "https://www.google.com",
-            "request": "launch",
-            "url": "https://www.google.com"
-        }
-    ]
-}
+// {
+//     "configurations": [
+//         // {
+//         //     "type": "chrome",
+//         //     "name": "localhost",
+//         //     "request": "launch",
+//         //     "url": "http://localhost:5001"
+//         // },
+//         {
+//             "address": "TCP/IP address of process to be debugged",
+//             "localRoot": "${workspaceFolder}",
+//             "name": "Attach to Remote",
+//             "port": 9229,
+//             "remoteRoot": "Absolute path to the remote directory containing the program",
+//             "request": "attach",
+//             "skipFiles": [
+//                 "<node_internals>/**"
+//             ],
+//             "type": "node"
+//         },
+//         {
+//             "name": "Attach by Process ID",
+//             "processId": "${command:PickProcess}",
+//             "request": "attach",
+//             "skipFiles": [
+//                 "<node_internals>/**"
+//             ],
+//             "type": "node"
+//         }
+//     ]
+// }
